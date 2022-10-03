@@ -1,0 +1,11 @@
+.chat-window {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 400px;
+    border: 1px solid black;
+}
+
+.chat-window .chat-header p {
+    height: 70px;
+}

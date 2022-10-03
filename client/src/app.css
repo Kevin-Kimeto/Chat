@@ -1,0 +1,36 @@
+.container {
+    max-width: 960px;
+    margin: auto;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.app h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.app input {
+    width: 200px;
+    height: 40px;
+    border: 1px solid rgb(17, 212, 17);
+    border-radius: 3px;
+}
+
+.app .room-id {
+    margin: 10px 0;
+}
+
+.app button {
+    width: 200px;
+    height: 40px;
+    background-color: rgb(17, 212, 17);
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
